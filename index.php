@@ -12,7 +12,7 @@
 </head>
 <body >
     <hr>
-<center><h1>BERITA</h1></center>
+<center><h1>PORTAL BERITA</h1></center>
     <?php
         include 'inc/koneksi.php';
         $getList = $connect->query("SELECT * FROM berita");
