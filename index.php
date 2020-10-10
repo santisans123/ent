@@ -55,8 +55,8 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
             <center><h1>WELCOME</h1>
-            <img alt="logo PENS" src="gambar/logo_PENS.png"/>
             <span class="subheading">Web Portal Berita PENS</span>
+            <img alt="logo PENS" src="gambar/logo_PENS.png"/>
             </center>
           </div>
         </div>
