@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $_SESSION['status'];
+    $_SESSION['status'] == "login";
 ?>
 <!DOCTYPE html>
 <html lang="en">
