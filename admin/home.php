@@ -13,7 +13,7 @@ if(! isset($_SESSION['is_login']))
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Starter Template · Bootstrap</title>
+    <title>Bootstrap</title>
  
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
  

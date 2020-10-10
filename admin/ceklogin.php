@@ -1,7 +1,12 @@
 <?php
     include '../inc/koneksi.php';
+    session_start();
 
-    if(isset($_POST['username'])){
+    if($_SESSION['status'] == "login"){
+        session_destroy();
+        header("location:../index.php");
+    }
+    else if(isset($_POST['username'])){
 
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -13,7 +18,7 @@
             session_start();
             $_SESSION['username'] = $username;
             $_SESSION['status'] = "login";
-            header("location:../index.php");
+            header("location:../berita.php");
         }else{
             echo "Login gagal";
         }

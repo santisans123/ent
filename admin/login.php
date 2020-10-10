@@ -49,7 +49,9 @@
   <br>
   <button class="btn btn-lg btn-primary btn-block" type="submit" name="login">Sign in</button>
   </br>
-  <p class="mt-5 mb-3 text-muted">Portal Website &copy; Santi</p>
+  <p class="mt-5 mb-3 text-muted">Portal Website &copy; PENS</p>
 </form>
 </body>
+<script>
+</script>
 </html>
