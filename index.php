@@ -23,7 +23,6 @@
             <a href="baca.php" class="btn1">BACA</a>
         </div>
         </center>
-
         <center>
         <div class="title">
             <h1 align="center">WELCOME</h1>
