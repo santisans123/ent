@@ -33,7 +33,7 @@
         </label>
   
   <br>
-  <button class="btn-login" type="submit" name="login">SIGN IN</button>
+  <button class="btn-login" type="submit" name="login" href="berita.php">SIGN IN</button>
 </form>
 <center><div class="a">Portal Website &copy; PENS</div></center>
 </div>
