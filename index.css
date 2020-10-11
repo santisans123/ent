@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url(gambar/index.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(16, 37, 156);
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color: rgb(103, 209, 241);
+    color: #000000;
+}
+ul li.active a{
+    background-color:#fff;
+    color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    font-family: sans-serif;
+    position: absolute;
+    top: 23%;
+    left: 35%;
+}
+.title h1{
+    color: #000;
+    font-size: 40px;
+}
+.button{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+
+}
+.html{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn1{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    margin: 5px;
+}
+.btn1:hover{
+    background: rgb(64, 161, 241);
+    color: #000;
+}
+@font-face{
+    font-family: "nama";
+    src: url(font/MoonbrightDemo-1GGn2.ttf);
+  }

@@ -15,7 +15,7 @@
      <i class="fa fa-user"></i>
      </div>
 
-        <center><h1 class="h3 mb-3 font-weight-normal">SIGN IN</h1></center>
+        <center><h1 class="h3 mb-3 font-weight-normal">PLEASE LOGIN</h1></center>
 
         <div class="box-login">
         <i class="fas fa-user"></i>
@@ -33,7 +33,7 @@
         </label>
   
   <br>
-  <button class="btn-login" type="submit" name="login" href="berita.php">SIGN IN</button>
+  <button  href="admin\berita.php" class="btn-login" type="submit" name="login">LOGIN</button>
 </form>
 <center><div class="a">Portal Website &copy; PENS</div></center>
 </div>

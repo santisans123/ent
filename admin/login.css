@@ -78,7 +78,10 @@ body{
     letter-spacing: 3px;
     color: white;
 }
-
+.btn-login:hover{
+    background-color: rgb(103, 209, 241);
+    color: black;
+}
 .a{
     color: white;
 }
