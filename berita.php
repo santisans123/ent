@@ -1,6 +1,6 @@
 <?php
     session_start();
-    $_SESSION['status'] ;
+    $_SESSION['status'] = "login"  ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +40,7 @@
     <p><?=$generate['isi']?></p>
     <p><?=$generate['gambar']?></p>
     <?php
-        if($_SESSION['status'] == "login"){
+        if($_SESSION['status'] = "login"){
             echo '<a href="edit.php?id='.$generate['id'].'"><button class="btn btn-warning">Edit</button></a>';
             echo '<button class="btn btn-danger" type="button"data-toggle="modal" data-target="#exampleModal">Hapus</button>';
         }

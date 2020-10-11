@@ -4,7 +4,7 @@
 
     if($_SESSION['status'] = "login"){
         session_destroy();
-        header("location:../index.php");
+        header("location:../berita.php");
     }
     else if(isset($_POST['username'])){
 
