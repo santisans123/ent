@@ -1,13 +1,13 @@
 <?php
     session_start();
-    $_SESSION['status'] ;
+    $_SESSION['status'] = "login" ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>konfirmasi</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
@@ -28,7 +28,7 @@
     <p><?=$generate['isi']?></p>
     <p><?=$generate['gambar']?></p>
     <?php
-        if($_SESSION['status'] == "login"){
+        if($_SESSION['status'] = "login"){
             echo '<a href="edit.php?id='.$generate['id'].'"><button class="btn btn-warning">Edit</button></a>';
             echo '<button class="btn btn-danger" type="button"data-toggle="modal" data-target="#exampleModal">Hapus</button>';
         }

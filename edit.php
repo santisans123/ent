@@ -10,7 +10,7 @@
     include 'inc/koneksi.php';
 
     if(!isset($_GET["id"])){
-        header("location:index.php");
+        header("location:berita.php");
     }
 
     $id = $_GET["id"];
