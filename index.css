@@ -41,16 +41,16 @@ ul li.active a{
     font-family: sans-serif;
     position: absolute;
     top: 23%;
-    left: 35%;
+    left: 25%;
 }
 .title h1{
-    color: #000;
+    color: rgb(19, 8, 119);
     font-size: 40px;
 }
 .button{
     position: absolute;
     top: 42%;
-    left: 42%;
+    left: 35%;
 
 }
 .html{
