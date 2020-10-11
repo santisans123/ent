@@ -62,8 +62,8 @@
      <a href="">UKM</a>
      <a href="">ORMAWA</a>
   </section>
-  <section class="contact-details">
-    <p>Hot News<br />
+  <section class="contact-details"><br>
+    Hot News 
     Berita Lingkungan PENS
   </section>
   </aside>

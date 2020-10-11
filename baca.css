@@ -74,13 +74,10 @@ aside section a {
 	border-bottom: 1px solid #eeeeee;
 }
 aside section a:hover {
-	color: #1038eb;
+	color: #3266f5;
 	background-color: #80eff3;
 }
-a {
-	color: #4e68fc;
-	text-decoration: none;
-}
+
 h1, h2, h3 {
 	font-weight: normal;
 }
@@ -88,11 +85,8 @@ h2 {
 	margin: 10px 0px 5px 0px;
 	padding: 0px;
 }
-h3 {
-	margin: 0px 0px 10px 0px;
-	color: #3c67f1;
-}
+
 aside h2 {
 	padding: 30px 0px 10px 0px;
-	color: #65bcde;
+	color: #300df3;
 }

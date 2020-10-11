@@ -14,7 +14,6 @@
 <div class="wrapper">
   <header>
     <img src="gambar/logo2.jpg" alt="logo"width="275px" height="135px"/>
-    
     <nav>
       <ul>
 	    <li><a href="" class="current">HOME</a></li>
@@ -40,6 +39,7 @@
     }
 ?>
   </section>
+
   <aside>
   <section class="POPULAR">
    <h2>POPULER</h2>
@@ -48,8 +48,8 @@
      <a href="">UKM</a>
      <a href="">ORMAWA</a>
   </section>
-  <section class="contact-details">
-    <p>Hot News<br />
+  <section class="contact-details"><br>
+    Hot News
     Berita Lingkungan PENS
   </section>
   </aside>
