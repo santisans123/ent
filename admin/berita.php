@@ -8,13 +8,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login berita</title>
-    <link rel="stylesheet" type="text/css" href="baca.css">
+    <link rel="stylesheet" type="text/css" href="../baca.css">
 
 </head>
 <body>
 <div class="wrapper">
 <header >
-    <img src="gambar/logo2.jpg" alt="logo"width="275px" height="135px"/>
+    <img src="../gambar/logo2.jpg" alt="logo"width="275px" height="135px"/>
     <nav>
       <ul>
 	    <li><a href="" class="current">HOME</a></li>
@@ -23,7 +23,7 @@
       </ul>
       <div class="coba">
       <div class="main">
-          <center><a href="index.php">LOG OUT</a></center>
+          <center><a href="../index.php">LOG OUT</a></center>
     </div>
     </div>
     </nav>
@@ -32,7 +32,7 @@
 <hr>
 <div class="container" >
     <?php
-        include 'inc/koneksi.php';
+        include 'koneksilogin.php';
         $getList = $connect->query("SELECT * FROM berita");
         $generate = $getList->fetch_assoc();
         while($generate = $getList->fetch_assoc()){

@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-    include 'inc/koneksi.php';
+    include 'koneksilogin.php';
 
     if(!isset($_GET["id"])){
         header("location:berita.php");

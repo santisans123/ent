@@ -4,7 +4,7 @@
 
     if($_SESSION['status'] = "login"){
         session_destroy();
-        header("location:../berita.php");
+        header("location:berita.php");
     }
     else if(isset($_POST['username'])){
 
@@ -18,7 +18,7 @@
             session_start();
             $_SESSION['username'] = $username;
             $_SESSION['status'] = "login";
-            header("location:../berita.php");
+            header("location:berita.php");
         }else{
             echo "Login gagal";
         }
