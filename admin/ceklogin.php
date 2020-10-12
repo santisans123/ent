@@ -1,5 +1,5 @@
 <?php
-    include '../inc/koneksi.php';
+    include 'koneksilogin.php';
     session_start();
 
     if($_SESSION['status'] = "login"){

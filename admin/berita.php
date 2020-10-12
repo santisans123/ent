@@ -41,7 +41,7 @@
     <center><h1 style="color:black;"><?=$generate['judul']?></h1></center>
     <p style="color:purple;"><?=$generate['kategori']?></p>
     <p><?=$generate['isi']?></p>
-    <p><?=$generate['gambar']?></p>
+    <p><?=$generate['file_gambar']?></p>
     <?php
         if($_SESSION['status'] = "login"){
             echo '<a href="edit.php?id='.$generate['id'].'"><button >Edit</button></a>';
