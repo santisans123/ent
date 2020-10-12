@@ -19,7 +19,6 @@
 	    <li><a href="" class="current">HOME</a></li>
 	    <li><a href="">VIDEO</a></li>
 	    <li><a href="">KONTAK</a></li>
-	    <li><a href="">LOG OUT</a></li>
       </ul>
     </nav>
   </header>

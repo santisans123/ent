@@ -15,14 +15,17 @@
 <div class="wrapper">
 <header >
     <img src="gambar/logo2.jpg" alt="logo"width="275px" height="135px"/>
-    
     <nav>
       <ul>
 	    <li><a href="" class="current">HOME</a></li>
 	    <li><a href="">VIDEO</a></li>
-	    <li><a href="">KONTAK</a></li>
-	    <li><a href="">LOG OUT</a></li>
+      <li><a href="">KONTAK</a></li>
       </ul>
+      <div class="coba">
+      <div class="main">
+          <center><a>LOG OUT</a></center>
+    </div>
+    </div>
     </nav>
   </header>
 <section class="courses">

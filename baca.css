@@ -3,13 +3,11 @@ body {
 	background-color: #f9f8f6;
 	background-position: center;
 	font-family: Georgia, Times, serif;
-	line-height: 1.4em;
 	margin: 0px;
 }
 .wrapper {
-	width: 940px;
-	margin: 20px auto 20px auto;
-	border: 2px solid #000000;
+	width: 1300px;
+	margin: auto;
 	background-color: #ffffff;
 }
 header {
@@ -89,4 +87,27 @@ h2 {
 aside h2 {
 	padding: 30px 0px 10px 0px;
 	color: #300df3;
+}
+.coba{
+		position: absolute;
+        right: 0;
+        top: 25px;
+        width: 160px;
+		border: 0px solid #000;
+		display: inline-block;
+		text-decoration: none;
+		color: black;
+}
+.main{
+	width: 100px;
+	padding: 4px 10px;
+	border: 1px solid;
+    transition: 0.6s;
+	margin: 0px;
+	cursor: pointer; 
+}
+
+.main:hover{
+    background-color: rgb(103, 209, 241);
+    color: #000000;
 }
