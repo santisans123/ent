@@ -5,7 +5,7 @@
         $id = $_GET["id"];
         $connect->query("DELETE FROM berita WHERE id = '".$id."'");
 
-        header("location:index.php");
+        header("location:berita.php");
         exit();
     }
 ?>

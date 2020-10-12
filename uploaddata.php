@@ -33,7 +33,7 @@
             } else {
                 echo 'Simpan data gagal';
             }
-        header("location:index.php");
+        header("location:berita.php");
         exit();
     }
 ?>

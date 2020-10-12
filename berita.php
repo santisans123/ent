@@ -23,7 +23,7 @@
       </ul>
       <div class="coba">
       <div class="main">
-          <center><a>LOG OUT</a></center>
+          <center><a href="index.php">LOG OUT</a></center>
     </div>
     </div>
     </nav>
