@@ -33,7 +33,7 @@
     <center><h1 style="color: black;"><?=$generate['judul']?></h1></center>
     <p style="color:grey;"><?=$generate['kategori']?></p>
     <p><?=$generate['isi']?></p>
-    <p><?=$generate['gambar']?></p>
+    <p><?=$generate['file_gambar']?></p>
     <?php
     }
 ?>
