@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body{
-    background-image: url(gambar/ubah.png);
+    background-image: url(../gambar/ubah.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
