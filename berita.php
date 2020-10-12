@@ -41,8 +41,8 @@
     <p><?=$generate['gambar']?></p>
     <?php
         if($_SESSION['status'] = "login"){
-            echo '<a href="edit.php?id='.$generate['id'].'"><button class="btn btn-warning">Edit</button></a>';
-            echo '<button class="btn btn-danger" type="button"data-toggle="modal" data-target="#exampleModal">Hapus</button>';
+            echo '<a href="edit.php?id='.$generate['id'].'"><button >Edit</button></a>';
+            echo '<a href="delete.php?id='.$generate['id'].'"><button>Hapus</button></a>';
         }
       }
     ?>  

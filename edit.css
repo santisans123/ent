@@ -1,0 +1,17 @@
+*{
+    margin: 9px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(gambar/ubah.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+legend{
+    background-color: rgb(192, 247, 250);
+    letter-spacing: 10px;
+}
+

@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Data</title>
+    <link rel="stylesheet" type="text/css" href="edit.css">
 </head>
 <body>
-    <form action="uploaddata.php" method="POST">    
+<fieldset>
+       <legend>BUAT PERBARUAN</legend> 
+    <form action="uploaddata.php" method="POST">   
     <table>
         <tr>
             <td><label for="judul">Judul</label></td>
@@ -18,7 +21,11 @@
         </tr>
         <tr>
             <td><label for="isi">Isi</label></td>
-            <td><textarea name="isi" id="isi" rows="10"></textarea></td>
+            <td><textarea name="isi" id="isi" rows="10" cols = "100"></textarea></td>
+        </tr>
+        <tr>
+        <td><label for="tanggal">Tanggal</label></td>
+            <td><input type="date" name="tanggal" required><br></td>
         </tr>
         <tr>
             <td><label for="gambar">Gambar</label></td>
@@ -28,6 +35,7 @@
             <td><button type="submit">Tambah</button></td>
         </tr>
     </table>
+</fieldset>
     </form>
 </body>
 </html>

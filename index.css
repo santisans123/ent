@@ -75,3 +75,14 @@ ul li.active a{
     background: rgb(64, 161, 241);
     color: #000;
 }
+@media screen and (max-width:680px){
+
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+}

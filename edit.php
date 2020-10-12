@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tambah Data</title>
-
+    <link rel="stylesheet" type="text/css" href="edit.css">
 </head>
 <body>
 <?php
@@ -18,6 +18,8 @@
     $getData = $connect->query("SELECT * FROM berita WHERE id = '".$id."'");
     $data = mysqli_fetch_array($getData);
 ?>
+    <fieldset>      
+    <legend>UBAH PEMBARUAN</legend>
     <form action="editdata.php" method="POST">    
     <table>
         <tr>
@@ -30,8 +32,12 @@
         </tr>
         <tr>
             <td><label for="isi">Isi</label></td>
-            <td><textarea name="isi" id="isi" rows="10"><?=$data["isi"]?></textarea></td>
+            <td><textarea name="isi" id="isi" rows="10" cols = "100"><?=$data["isi"]?></textarea></td>
             <input type="hidden" name="id" value="<?=$data["id"]?>">
+        </tr>
+        <tr>
+        <td><label for="tanggal">Tanggal</label></td>
+            <td><input type="date" name="tanggal" required><br></td>
         </tr>
         <tr>
             <td><label for="gambar">Gambar</label></td>
@@ -42,5 +48,6 @@
         </tr>
     </table>
     </form>
+    </fieldset>
 </body>
 </html>
