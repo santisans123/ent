@@ -1,5 +1,5 @@
 <?php
-    include 'koneksilogin.php';
+    include 'login/koneksilogin.php';
 
     if(isset($_POST["id"])){
 

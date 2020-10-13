@@ -18,7 +18,7 @@
     <nav>
       <ul>
 	    <li><a href="" class="current">HOME</a></li>
-	    <li><a href="">VIDEO</a></li>
+	    <li><a href="video.php">VIDEO</a></li>
       <li><a href="">KONTAK</a></li>
       </ul>
       <div class="coba">
@@ -32,7 +32,7 @@
 <hr>
 <div class="container" >
     <?php
-        include 'koneksilogin.php';
+        include 'login/koneksilogin.php';
         $getList = $connect->query("SELECT * FROM berita");
         $generate = $getList->fetch_assoc();
         while($generate = $getList->fetch_assoc()){
@@ -41,9 +41,10 @@
     <center><h1 style="color:black;"><?=$generate['judul']?></h1></center>
     <p style="color:purple;"><?=$generate['kategori']?></p>
     <p><?=$generate['isi']?></p>
+    <p><?=$generate['tanggal']?></p>
     <p><?=$generate['file_gambar']?></p>
     <?php
-        if($_SESSION['status'] = "login"){
+        if($_SESSION['status'] == "login"){
             echo '<a href="edit.php?id='.$generate['id'].'"><button >Edit</button></a>';
             echo '<a href="delete.php?id='.$generate['id'].'"><button>Hapus</button></a>';
         }
@@ -52,7 +53,7 @@
     <br>
     <br>
     <?php
-    if($_SESSION['status'] = "login"){
+    if($_SESSION['status'] == "login"){
     echo '<a href="create.php"><button>Tambah</button></a>';
     }
     ?>

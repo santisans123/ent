@@ -1,6 +1,6 @@
 <?php
     if(isset($_GET["id"])){
-        include 'koneksilogin.php';
+        include 'login/koneksilogin.php';
 
         $id = $_GET["id"];
         $connect->query("DELETE FROM berita WHERE id = '".$id."'");
