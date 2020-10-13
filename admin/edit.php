@@ -40,7 +40,7 @@
             <td><input type="date" name="tanggal" required><br></td>
         </tr>
         <tr>
-        <td><label class="control-label" for="inputGambar">Gambar Berita</label></td>
+        <td><label class="control-label" for="inputGambar">Gambar</label></td>
             <td><input type="file" name="gambar" id="gambar" required></td>
         </tr>
         <tr>
