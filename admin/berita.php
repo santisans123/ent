@@ -53,7 +53,7 @@
     <br>
     <br>
     <?php
-    if($_SESSION['status'] == "login"){
+    if($_SESSION['status'] = "login"){
     echo '<a href="create.php"><button>Tambah</button></a>';
     }
     ?>

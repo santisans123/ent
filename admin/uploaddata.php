@@ -5,9 +5,10 @@
         $judul = $_POST["judul"];
         $kategori = $_POST["kategori"];
         $isi = $_POST["isi"];
+        $tanggal = $_POST["tanggal"];
         $file_gambar = $_FILES["file_gambar"];
 
-        $connect->query("INSERT INTO berita (judul, kategori, isi, file_gambar) VALUES ('".$judul."', '".$kategori."', '".$isi."', '".$file_gambar."')");
+        $connect->query("INSERT INTO berita (judul, kategori, isi, tanggal, file_gambar) VALUES ('".$judul."', '".$kategori."', '".$isi."', '".$tanggal."', '".$file_gambar."')");
 
         $tempdir = "gambar/"; 
         if (!file_exists($tempdir))
