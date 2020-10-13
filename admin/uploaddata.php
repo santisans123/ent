@@ -1,6 +1,4 @@
 <?php
-    if(isset($_POST["judul"])){
-        include 'koneksilogin.php';
 
         $judul = $_POST["judul"];
         $kategori = $_POST["kategori"];
