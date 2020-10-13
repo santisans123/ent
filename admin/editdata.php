@@ -10,7 +10,7 @@
         $tanggal = $_POST["tanggal"];
         $file_gambar = $_POST["file_gambar"];
 
-        $connect->query("UPDATE berita SET judul = '".$judul."', kategori = '".$kategori."', isi = '".$isi.",'tanggal = '".$tanggal."',file_gambar = '".$file_gambar."' WHERE id = '".$id."'");
+        $connect->query("UPDATE berita SET judul = '".$judul."', kategori = '".$kategori."', isi = '".$isi."' WHERE id = '".$id."'");
 
         $tempdir = "gambar/"; 
         if (!file_exists($tempdir))

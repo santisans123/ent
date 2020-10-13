@@ -1,12 +1,7 @@
 <?php
     include 'koneksilogin.php';
-    session_start();
 
-    if($_SESSION['status'] = "login"){
-        session_destroy();
-        header("location:..\berita.php");
-    }
-    else if(isset($_POST['username'])){
+    if(isset($_POST['username'])){
 
         $username = $_POST['username'];
         $password = $_POST['password'];

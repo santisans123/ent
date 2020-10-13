@@ -40,8 +40,8 @@
             <td><input type="date" name="tanggal" required><br></td>
         </tr>
         <tr>
-        <td><label class="control-label" for="inputGambar">Gambar</label></td>
-            <td><input type="file" name="gambar" id="gambar" required></td>
+        <td><label  for="file_gambar">Gambar</label>  
+            <input type="file" name="file_gambar" value="<?php echo $berita['file_gambar'] ?>">  
         </tr>
         <tr>
             <td><button type="submit">Ubah</button></td>

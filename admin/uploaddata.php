@@ -8,9 +8,9 @@
         $tanggal = $_POST["tanggal"];
         $file_gambar = $_FILES["file_gambar"];
 
-        $connect->query("INSERT INTO berita (judul, kategori, isi, tanggal, file_gambar) VALUES ('".$judul."', '".$kategori."', '".$isi."', '".$tanggal."', '".$file_gambar."')");
+        $connect->query("INSERT INTO berita (judul, kategori, isi, tanggal, file_gambar) VALUES ('".$judul."', '".$kategori."', '".$isi."', '".$tanggal."','".$file_gambar."')");
 
-        $tempdir = "gambar/"; 
+        $tempdir = "gambarupload/"; 
         if (!file_exists($tempdir))
         mkdir($tempdir,0755); 
         //gambar akan di simpan di folder gambar
