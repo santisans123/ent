@@ -68,8 +68,15 @@
      <a href="">ORMAWA</a>
   </section>
   <section class="contact-details"><br>
-    Hot News 
-    Berita Lingkungan PENS
+    - Hot News 
+    Berita Lingkungan PENS -
+
+    <div class="change">
+        <h3>Change color text</h3>
+        <label>color:</label>
+    <input type="color" id="text-color"/>
+    </div>
+    
   </section>
   </aside>
 <br>
@@ -79,3 +86,13 @@
     <!-- footer content here -->
   </footer>
 </html>
+<script type="text/javascript">
+        alert("Selamat Datang Administrator. Anda mempunyai hak untuk mengubah berita")
+    </script>
+<script type="text/javascript">
+        var txtColor = document.getElementById('text-color');
+        txtColor.addEventListener("change",(event) => {
+            document.body.style.color = txtColor.value;
+        });
+    
+</script>

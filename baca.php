@@ -48,8 +48,14 @@
      <a href="">ORMAWA</a>
   </section>
   <section class="contact-details"><br>
-    Hot News
-    Berita Lingkungan PENS
+    - Hot News
+    Berita Lingkungan PENS -
+
+    <div class="change">
+        <h3>Change color text</h3>
+        <label>color:</label>
+    <input type="color" id="text-color"/>
+    </div>
   </section>
   </aside>
   <body>
@@ -58,3 +64,15 @@
   </footer>
 <hr>
 </html>
+
+</html>
+<script type="text/javascript">
+        alert("Selamat Datang di Portal Berita Pens")
+    </script>
+<script type="text/javascript">
+        var txtColor = document.getElementById('text-color');
+        txtColor.addEventListener("change",(event) => {
+            document.body.style.color = txtColor.value;
+        });
+    
+</script>
