@@ -10,6 +10,7 @@
     <title>Berita</title>
     <link rel="stylesheet" type="text/css" href="baca.css">
 </head>
+
 <body>
 <div class="wrapper">
   <header>
@@ -58,6 +59,7 @@
     </div>
   </section>
   </aside>
+  
   <body>
   <footer>
     <!-- footer content here -->

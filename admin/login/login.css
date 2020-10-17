@@ -6,7 +6,6 @@ body{
     background-position: center;
     background-repeat:no-repeat;
     background-attachment: fixed;
- 
 
 }
 .login{
@@ -55,7 +54,7 @@ body{
 }
 
 .box-login input{
-    width: 100%;
+    width: 70%;
     padding: 0 10px;
     background: none;
     border: none;
@@ -75,11 +74,11 @@ body{
     border: 1px solid white;
     outline: none;
     font-size: 18px;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     color: white;
 }
 .btn-login:hover{
-    background-color: rgb(103, 209, 241);
+    background-color:rgb(59, 186, 236) ;
     color: black;
 }
 .a{
