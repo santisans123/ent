@@ -9,7 +9,7 @@
 
   </head>
   <body>
-  <form class="form-signin" method="post" action="ceklogin.php">
+  <form method="post" action="ceklogin.php">
   <div class="login">
      <div class="avatar">
      <i class="fa fa-user"></i>
