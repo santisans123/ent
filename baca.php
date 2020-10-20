@@ -41,7 +41,7 @@
   </section>
 
   <aside>
-  <section class="POPULAR">
+  <section>
    <h2>POPULER</h2>
      <a href="">TEKNOLOGI</a>
      <a href="">OLAHRAGA</a>
